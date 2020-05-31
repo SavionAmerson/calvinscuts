@@ -12,7 +12,7 @@ class Location extends React.Component {
           <h2>
             Calvin is located in St. Louis, MO. Due to the corona virus
             outbreak, this is the only place his services are avaliable as he is
-            unable to travel
+            unable to travel.
           </h2>
         </div>
       </div>
