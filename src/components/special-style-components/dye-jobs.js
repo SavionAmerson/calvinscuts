@@ -21,7 +21,7 @@ class Dyes extends React.Component {
             <div class="card">
               <img src={require("../../images/whoops.jpg")} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">The "whoops"</h5>
+                <h5 class="card-title">The ???</h5>
                 <a href="#" class="btn btn-primary">
                 $25.00
                 </a>
@@ -31,7 +31,7 @@ class Dyes extends React.Component {
             <div class="card">
               <img src={require("../../images/huh.jpg")} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">The ???</h5>
+                <h5 class="card-title">The Enji Todoroki</h5>
                 <a href="#" class="btn btn-primary">
                 $25.00
                 </a>

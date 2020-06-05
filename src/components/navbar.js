@@ -5,6 +5,7 @@ class Navbar extends React.Component {
     return (
       <div className="navbar">
         <div className="logo">
+        <img src={require("../images/scissors.png")} />
           <h1>CALVIN'S CUTS</h1>
         </div>
         <div className="nav-menu">
