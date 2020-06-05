@@ -9,6 +9,8 @@ import Footer from "./components/footer";
 import BestWork from "./components/home-components/best-work";
 import SimpleCuts from "./components/cuts-components/simple-cuts";
 import FancyCuts from "./components/cuts-components/fancy-cuts";
+import Braids from "./components/special-style-components/braids";
+import Dyes from "./components/special-style-components/dye-jobs";
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
 
           <Route path="/cutstyles" exact component={SimpleCuts} />
           <Route path="/cutstyles" exact component={FancyCuts} />
+
+          <Route path="/specials" exact component={Braids} />
+          <Route path="/specials" exact component={Dyes} />
 
       </Router>
       <Footer />

@@ -3,10 +3,10 @@ import React from "react";
 class SimpleCuts extends React.Component {
   render() {
     return (
-      <div className="simple-cuts-section">
-        <div class="simple-cut-options">
+      <div className="hairstyle-cuts-section">
+        <div class="hairstyle-options">
           <h1>SIMPLE CUTS</h1>
-          <div className="simple-cut-photos">
+          <div className="hairstyle-photos">
 
             <div class="card">
               <img src={require("../../images/BW1.jpg")} class="card-img-top" alt="..." />
@@ -49,7 +49,7 @@ class SimpleCuts extends React.Component {
                 </a>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>

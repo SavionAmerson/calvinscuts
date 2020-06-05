@@ -1,11 +1,11 @@
 import React from "react";
 
-class FancyCuts extends React.Component {
-    render() {
-      return (
-        <div className="hairstyle-cuts-section">
+class Braids extends React.Component {
+  render() {
+    return (
+      <div className="hairstyle-cuts-section">
         <div class="hairstyle-options">
-          <h1>FANCY CUTS</h1>
+          <h1>BRAIDS</h1>
           <div className="hairstyle-photos">
 
             <div class="card">
@@ -49,12 +49,12 @@ class FancyCuts extends React.Component {
                 </a>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
-      );
-    }
+    );
   }
+}
 
-export default FancyCuts;
+export default Braids;

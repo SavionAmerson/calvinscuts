@@ -152,51 +152,20 @@ body{
   padding: 15px;
 }
 
-/* SIMPLE CUTS */
+/* HAIRSTYLES */
 
-.simple-cut-options h1{
+.hairstyle-options h1{
   text-align: center;
   padding-top: 50px;
 }
 
-.simple-cut-photos {
+.hairstyle-photos {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.simple-cut-photos .card{
-  width: 18em;
-  margin: 50px;
-}
-
-.card .btn{
-  background-color: green;
-  border-color: green;
-}
-
-.card .btn :hover {
-  background-color: darkgreen;
-}
-
-.card .btn :active {
-  background-color: darkgreen;
-}
-
-/* FANCY CUTS */
-
-.fancy-cut-options h1{
-  text-align: center;
-  padding-top: 50px;
-}
-
-.fancy-cut-photos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.fancy-cut-photos .card{
+.hairstyle-photos .card{
   width: 18em;
   margin: 50px;
 }
