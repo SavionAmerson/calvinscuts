@@ -9,43 +9,31 @@ class FancyCuts extends React.Component {
           <div className="hairstyle-photos">
 
             <div class="card">
-              <img src={require("../../images/BW1.jpg")} class="card-img-top" alt="..." />
+              <img src={require("../../images/paintbrush.jpg")} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <h5 class="card-title">The Paintbrush</h5>
                 <a href="#" class="btn btn-primary">
-                  $10.00
+                  $20.00
                 </a>
               </div>
             </div>
 
             <div class="card">
-              <img src={require("../../images/BW2.jpg")} class="card-img-top" alt="..." />
+              <img src={require("../../images/circle-of-life.jpg")} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <h5 class="card-title">The Circle of Life</h5>
                 <a href="#" class="btn btn-primary">
-                $10.00
+                $20.00
                 </a>
               </div>
             </div>
 
             <div class="card">
-              <img src={require("../../images/BW3.jpg")} class="card-img-top" alt="..." />
+              <img src={require("../../images/dre-beats.jpg")} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <h5 class="card-title">The "Sorry, what was that?"</h5>
                 <a href="#" class="btn btn-primary">
-                $10.00
+                $20.00
                 </a>
               </div>
             </div>

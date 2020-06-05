@@ -170,6 +170,10 @@ body{
   margin: 50px;
 }
 
+.card img {
+  max-height: 300px;
+}
+
 .card .btn{
   background-color: green;
   border-color: green;
