@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
 import Navbar from "./components/navbar";
 import Calvin from "./components/home-components/calvin";
@@ -6,15 +7,23 @@ import Bio from "./components/home-components/bio";
 import Location from "./components/home-components/location";
 import Footer from "./components/footer";
 import BestWork from "./components/home-components/best-work";
+import SimpleCuts from "./components/cuts-components/simple-cuts";
+import FancyCuts from "./components/cuts-components/fancy-cuts";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Calvin />
-      <Bio />
-      <BestWork />
-      <Location />
+      <Router>
+          <Route path="/" exact component={Calvin} />
+          <Route path="/" exact component={Bio} />
+          <Route path="/" exact component={BestWork} />
+          <Route path="/" exact component={Location} />
+
+          <Route path="/cutstyles" exact component={SimpleCuts} />
+          <Route path="/cutstyles" exact component={FancyCuts} />
+
+      </Router>
       <Footer />
     </div>
   );

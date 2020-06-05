@@ -9,11 +9,11 @@ class Navbar extends React.Component {
         </div>
         <div className="nav-menu">
           <ul>
-            <li>SPECIAL STYLES</li>
+            <a href="/specials"><li>SPECIAL STYLES</li></a>
 
-            <li>CUT STYLES</li>
+            <a href="/cutstyles"><li>CUT STYLES</li></a>
 
-            <li>HOME</li>
+            <a href="/"><li>HOME</li></a>
           </ul>
         </div>
       </div>

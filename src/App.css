@@ -2,6 +2,8 @@ body{
   font-family: 'Comfortaa', cursive;
 }
 
+/* NAVBAR */
+
 .navbar{
   height: 10%;
   display: flex;
@@ -23,7 +25,14 @@ body{
   list-style: none;
   float: right;
   margin: 0% 2%;
+  text-decoration: none;
+  border: solid white;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
+
+/* INTRO SECTION */
 
 .calvin{
   display: flex;
@@ -49,6 +58,8 @@ body{
 .calvin-photo img{
   border-radius: 20px;
 }
+
+/* BIO SECTION */
 
 .bio-section{
   height: 300px;
@@ -76,6 +87,37 @@ body{
   text-align: center;
 }
 
+/* BEST WORK SECTION */
+
+
+.best-work-section h1{
+  text-align: center;
+  padding-top: 3%;
+}
+
+.best-work{
+  width: 98%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-1, .row-2{
+  width: 80%;
+}
+
+.row-1 img, .row-2 img{
+  width: 50%;
+  height: 550px;
+  border-radius: 100px;
+  padding: 50px;
+}
+
+
+/* LOCATION SECTION */
+
 .location{
   display: flex;
   flex-direction: row;
@@ -100,6 +142,8 @@ body{
   border-radius: 5%;
 }
 
+/* FOOTER */
+
 .footer{
   background-color: red;
   height: 70px;
@@ -108,27 +152,64 @@ body{
   padding: 15px;
 }
 
-.best-work-section h1{
+/* SIMPLE CUTS */
+
+.simple-cut-options h1{
   text-align: center;
-  padding-top: 3%;
+  padding-top: 50px;
 }
 
-.best-work{
-  width: 98%;
-  padding: 3%;
+.simple-cut-photos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
-.row-1, .row-2{
-  width: 80%;
+.simple-cut-photos .card{
+  width: 18em;
+  margin: 50px;
 }
 
-.row-1 img, .row-2 img{
-  width: 50%;
-  height: 500px;
-  border-radius: 100px;
-  padding: 50px;
+.card .btn{
+  background-color: green;
+  border-color: green;
+}
+
+.card .btn :hover {
+  background-color: darkgreen;
+}
+
+.card .btn :active {
+  background-color: darkgreen;
+}
+
+/* FANCY CUTS */
+
+.fancy-cut-options h1{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.fancy-cut-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fancy-cut-photos .card{
+  width: 18em;
+  margin: 50px;
+}
+
+.card .btn{
+  background-color: green;
+  border-color: green;
+}
+
+.card .btn :hover {
+  background-color: darkgreen;
+}
+
+.card .btn :active {
+  background-color: darkgreen;
 }
