@@ -4,8 +4,8 @@ class Location extends React.Component {
   render() {
     return (
       <div className="location">
-        <div className="arch">
-          <img src={require("../../images/arch.jpg")} />
+        <div className="arch text-center">
+          <img src={require("../../images/arch.jpg")} class="img-fluid" />
         </div>
         <div className="location-info">
           <h1>WHERE IS CALVIN?</h1>

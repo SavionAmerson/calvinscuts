@@ -20,7 +20,7 @@ function App() {
           <Route path="/" exact component={Calvin} />
           <Route path="/" exact component={Bio} />
           <Route path="/" exact component={BestWork} />
-          <Route path="/" exact component={Location} />
+          {/* <Route path="/" exact component={Location} /> */}
 
           <Route path="/cutstyles" exact component={SimpleCuts} />
           <Route path="/cutstyles" exact component={FancyCuts} />
