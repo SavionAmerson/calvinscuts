@@ -5,7 +5,7 @@ class Dyes extends React.Component {
     return (
       <div className="hairstyle-cuts-section">
         <div class="hairstyle-options">
-          <h1>DYES</h1>
+          <h1>DYES JOBS</h1>
           <div className="hairstyle-photos">
 
             <div class="card">
