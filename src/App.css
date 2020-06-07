@@ -162,6 +162,26 @@ body{
   border-radius: 5%;
 }
 
+/* CONTACT SECTION*/
+
+.contact h1{
+  text-align: center;
+  border-bottom: black solid 2px;
+  width: 50%;
+}
+
+.contact-info{
+  /* background-color: red; */
+  width: 100%;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.contact-methods{
+  display: flex;
+  justify-content: space-around;
+}
+
 /* FOOTER */
 
 .footer{

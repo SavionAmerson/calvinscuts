@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Calvin from "./components/home-components/calvin";
 import Bio from "./components/home-components/bio";
 import Location from "./components/home-components/location";
+import Contact from "./components/home-components/contact";
 import Footer from "./components/footer";
 import BestWork from "./components/home-components/best-work";
 import SimpleCuts from "./components/cuts-components/simple-cuts";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" exact component={Calvin} />
           <Route path="/" exact component={Bio} />
           <Route path="/" exact component={BestWork} />
+          <Route path="/" exact component={Contact} />
           {/* <Route path="/" exact component={Location} /> */}
 
           <Route path="/cutstyles" exact component={SimpleCuts} />
