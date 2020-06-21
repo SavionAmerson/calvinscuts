@@ -4,7 +4,7 @@ class Bio extends React.Component {
   render() {
     return (
       <div className="bio-section">
-          <div className="bio">
+          <div data-aos="fade-up" data-aos-duration="1000" className="bio">
               <h1>
                  WHO IS CALVIN? 
               </h1>

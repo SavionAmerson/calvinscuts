@@ -6,13 +6,13 @@ class SimpleCuts extends React.Component {
       <div className="hairstyle-cuts-section">
         <div class="hairstyle-options">
           <h1>SIMPLE CUTS</h1>
-          <div className="hairstyle-photos">
+          <div data-aos="fade-up" data-aos-duration="700" className="hairstyle-photos">
 
             <div class="card">
               <img src={require("../../images/BW2.jpg")} class="card-img-top" alt="..." />
-              <div class="card-body">
+              <div class="card-body" id="card-body">
                 <h5 class="card-title">The Staircase</h5>
-                <a href="#" class="btn btn-primary">
+                <a href="/checkout" class="btn btn-primary">
                   $10.00
                 </a>
               </div>
@@ -20,9 +20,9 @@ class SimpleCuts extends React.Component {
 
             <div class="card">
               <img src={require("../../images/BW3.jpg")} class="card-img-top" alt="..." />
-              <div class="card-body">
+              <div class="card-body" id="card-body">
                 <h5 class="card-title">The Cresant</h5>
-                <a href="#" class="btn btn-primary">
+                <a href="/checkout" class="btn btn-primary">
                 $10.00
                 </a>
               </div>
@@ -30,9 +30,9 @@ class SimpleCuts extends React.Component {
 
             <div class="card">
               <img src={require("../../images/throw.jpg")} class="card-img-top" alt="..." />
-              <div class="card-body">
+              <div class="card-body" id="card-body">
                 <h5 class="card-title">The "Just throw your clippers at me"</h5>
-                <a href="#" class="btn btn-primary">
+                <a href="/checkout" class="btn btn-primary">
                 $10.00
                 </a>
               </div>
@@ -44,5 +44,7 @@ class SimpleCuts extends React.Component {
     );
   }
 }
+
+
 
 export default SimpleCuts;

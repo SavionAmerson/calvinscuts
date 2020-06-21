@@ -6,7 +6,7 @@ class Contact extends React.Component {
         <div className="contact">
             
             <div class="container">
-                <div class="row">
+                <div data-aos="fade-up" data-aos-duration="700" class="row">
                 <h1 class="col-md-12">CONTACT</h1>
                     <div class="contact-info col-md-4">
                     <p>You can contact Calvin with via phone or email. Or you can get in touch with him through social media listed below!</p>
